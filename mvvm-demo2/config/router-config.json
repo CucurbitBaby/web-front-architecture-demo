@@ -1,0 +1,19 @@
+{
+    "root":"app",
+    "preloadRouter":{
+        "userInfo":{
+            "moduleName":"UserInfoViewModel",
+            "modulePath":"page/userInfo/js/userInfo-viewmodel.js",
+            "htmlPath":"page/userInfo/userInfo.html",
+            "renderNode":"userInfo"
+        }
+    },
+    "router":{
+        "menu":{
+            "moduleName":"MenuViewModel",
+            "modulePath":"page/menu/js/menu-viewmodel.js",
+            "htmlPath":"page/menu/menu.html",
+            "renderNode":"menu"
+        }
+    }
+}

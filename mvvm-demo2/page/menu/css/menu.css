@@ -1,0 +1,17 @@
+.menu-content{
+    padding: 0;
+    list-style: none;
+}
+
+.menu-content li{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-content .selected-menu,
+.menu-content li:hover{
+    background-color: #f2efd7;
+}
+

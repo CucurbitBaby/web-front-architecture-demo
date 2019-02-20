@@ -1,0 +1,25 @@
+{
+    "root":"app",
+    "preloadRouter":{
+        "userInfo":{
+            "moduleName":"UserInfoViewModel",
+            "modulePath":"page/userInfo/js/userInfo-viewmodel.js",
+            "htmlPath":"page/userInfo/userInfo.html",
+            "renderNode":"userInfo"
+        }
+    },
+    "router":{
+        "menu":{
+            "moduleName":"MenuViewModel",
+            "modulePath":"page/menu/js/menu-viewmodel.js",
+            "htmlPath":"page/menu/menu.html",
+            "renderNode":"menu"
+        },
+        "home":{
+            "moduleName":"HomeViewModel",
+            "modulePath":"page/home/js/home-viewmodel.js",
+            "htmlPath":"page/home/home.html",
+            "renderNode":"content"
+        }
+    }
+}
